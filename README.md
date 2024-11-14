@@ -10,10 +10,12 @@ This is a fork specially made for Arduino UNO R4 WiFi, it will not work with oth
 | ------------- | ------------- |
 | CLI  | Yes  |
 | Wifi  | Yes  |
-| Bluetooth  | No  |
+| Bluetooth  | Yes  |
 | SD card  | No  |
 | TFT screen  | No  |
 | GPS  | No  |
+| EvilPortal  | No (require SD card) |
+| Battery Interface | No  |
 <p align="center"><img alt="Marauder logo" src="https://github.com/justcallmekoko/ESP32Marauder/blob/master/pictures/marauder3L.jpg?raw=true" width="300"></p>
 <p align="center">
   <b>A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32</b>

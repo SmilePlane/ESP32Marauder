@@ -1,56 +1,31 @@
-# Freedom for ESP32 on Arduino UNO R4 WiFi!
+<!---[![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/justcallmekoko/ESP32Marauder/blob/master/LICENSE)--->
+<!---[![Gitter](https://badges.gitter.im/justcallmekoko/ESP32Marauder.png)](https://gitter.im/justcallmekoko/ESP32Marauder)--->
+<!---[![Build Status](https://travis-ci.com/justcallmekoko/ESP32Marauder.svg?branch=master)](https://travis-ci.com/justcallmekoko/ESP32Marauder)--->
+<!---Shields/Badges https://shields.io/--->
 
-If you (like me) are trying to use ESP32 on the UNO R4 WiFi for your own sketches, you'll soon learn that by re-programming the ESP32 the board loses several powerful features:
-- The ability to see the `Serial` output in the serial monitor
-- Renesas chip debugging
+# ESP32 Marauder
+<p align="center"><img alt="Marauder logo" src="https://github.com/justcallmekoko/ESP32Marauder/blob/master/pictures/marauder3L.jpg?raw=true" width="300"></p>
+<p align="center">
+  <b>A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32</b>
+  <br><br>
+  <a href="https://github.com/justcallmekoko/ESP32Marauder/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
+  <a href="https://gitter.im/justcallmekoko/ESP32Marauder"><img alt="Gitter" src="https://badges.gitter.im/justcallmekoko/ESP32Marauder.png"/></a>
+  <a href="https://github.com/justcallmekoko/ESP32Marauder/releases/latest"><img src="https://img.shields.io/github/downloads/justcallmekoko/ESP32Marauder/total" alt="Downloads"/></a>
+  <br>
+  <a href="https://twitter.com/intent/follow?screen_name=jcmkyoutube"><img src="https://img.shields.io/twitter/follow/jcmkyoutube?style=social&logo=twitter" alt="Twitter"></a>
+  <a href="https://www.instagram.com/just.call.me.koko"><img src="https://img.shields.io/badge/Follow%20Me-Instagram-orange" alt="Instagram"/></a>
+  <br><br>
+  <a href="https://www.tindie.com/products/justcallmekoko/esp32-marauder/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+  <br>
+  <a href="https://www.twitch.tv/willstunforfood"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c540.png" alt="Twitch WillStunForFood" width="200"></a>
+</p>
+    
+[![Build and Push](https://github.com/justcallmekoko/ESP32Marauder/actions/workflows/build_push.yml/badge.svg)](https://github.com/justcallmekoko/ESP32Marauder/actions/workflows/build_push.yml)
 
-Fear not, this project lets you reclaim your power!
+## Getting Started
+Download the [latest release](https://github.com/justcallmekoko/ESP32Marauder/releases/latest) of the firmware.  
 
-## Getting started
+Check out the project [wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki) for a full overview of the ESP32 Marauder
 
-> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO.  
-> Please use [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
-
-There are 2 sketches, one [for the ESP32](src_esp32/main_esp.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
-
-### Build and upload
-
-1. Disconnect the UNO R4 WiFi from your PC
-2. Short the pins highlighted in the image using a jumper wire:
-
-![ESP32-S3 mode selection jumper](https://github.com/pennam/UnoR4WiFiUpdate/assets/20436476/b271759e-5d7b-44f5-954e-15bc0f7feae9)
-
-3. Connect the UNO R4 WiFi to your PC
-4. **Upload ESP32 firmware:**
-
-```sh
-pio run -e esp32 -t upload
-```
-
-5. Disconnect the UNO R4 WiFi from your PC
-6. **Unplug the jumper wire**
-7. Connect the board again
-8. **Upload the Renesas firmware:**
-
-```sh
-pio run -e unoR4 -t upload -t monitor
-```
-
-### Expected Serial Monitor output:
-
-```log
-ESP32 says: Freedom for ESP32-S3! 🌟🌟🌟
-ESP32 says: Freedom for ESP32-S3! 🇺🇦🛡️🇺🇦🛡️🇺🇦
-ESP32 says: Freedom for ESP32-S3! 😎👌🔥
-ESP32 says: Freedom for ESP32-S3! 🚀🌘
-```
-
-[pio_vscode]: https://docs.platformio.org/en/stable/integration/ide/vscode.html#ide-vscode
-[pio_cli]: https://docs.platformio.org/en/stable/core/index.html
-
---- 
-
-### Restoring the original ESP32 firmware
-
-Install [the official Arduino firmware release](https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest)
-
+# For Sale Now
+You can buy the ESP32 Marauder using [this link](https://www.tindie.com/products/justcallmekoko/esp32-marauder/)

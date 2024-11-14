@@ -23,9 +23,6 @@
 [![Build and Push](https://github.com/justcallmekoko/ESP32Marauder/actions/workflows/build_push.yml/badge.svg)](https://github.com/justcallmekoko/ESP32Marauder/actions/workflows/build_push.yml)
 
 ## Getting Started
-Download the [latest release](https://github.com/justcallmekoko/ESP32Marauder/releases/latest) of the firmware.  
+Install the platformIO in VSCode and add this project, next upload first on esp32 (connect directly download pin to gnd), next to resenans microchip, use andother serial monitor than built in platformio.
 
 Check out the project [wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki) for a full overview of the ESP32 Marauder
-
-# For Sale Now
-You can buy the ESP32 Marauder using [this link](https://www.tindie.com/products/justcallmekoko/esp32-marauder/)

@@ -4,6 +4,16 @@
 <!---Shields/Badges https://shields.io/--->
 
 # ESP32 Marauder
+This is a fork specially made for Arduino UNO R4 WiFi, it will not work with other boards.
+
+| Function  | Working |
+| ------------- | ------------- |
+| CLI  | Yes  |
+| Wifi  | Yes  |
+| Bluetooth  | No  |
+| SD card  | No  |
+| TFT screen  | No  |
+| GPS  | No  |
 <p align="center"><img alt="Marauder logo" src="https://github.com/justcallmekoko/ESP32Marauder/blob/master/pictures/marauder3L.jpg?raw=true" width="300"></p>
 <p align="center">
   <b>A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32</b>
